@@ -24,7 +24,7 @@ This project implements a comprehensive real-time data pipeline that ingests str
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Eugenia-DE/nsp-bolt_ride_real-time_trip_processing.git
+git clone https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing.git
 cd nsp-bolt_ride_real-time_trip_processing
 ```
 
