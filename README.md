@@ -24,8 +24,8 @@ This project implements a comprehensive real-time data pipeline that ingests str
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing.git
-cd nsp-bolt_ride_real-time_trip_processing
+git clone https://github.com/GeniDT/real-time-trip-analytics-pipeline.git
+cd real-time-trip-analytics-pipeline
 ```
 
 ### Install Dependencies
@@ -112,9 +112,16 @@ The pipeline computes the following daily metrics for completed trips:
 
 Below is an example of the aggregated daily KPI output written to S3:
 
-![alt text](images/2024-05-25.png)
-
-![alt text](images/2024-05-26.png)
+```json
+{
+  "date": "2024-05-25",
+  "count_trips": 4885,
+  "total_fare": 268640.79,
+  "average_fare": 54.99,
+  "max_fare": 99.99,
+  "min_fare": 10.04
+}
+```
 
 ### KPI Breakdown and Analysis
 
